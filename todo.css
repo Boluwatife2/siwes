@@ -1,0 +1,44 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: whitesmoke;
+}
+
+button {
+    display: block;
+}
+.name {
+    display: block;
+    width: 8cm;
+    margin-bottom: 10px;
+    padding: 3px;
+    margin: 10px auto;
+    color: whitesmoke;
+}
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-image: url(bolu.jpg);
+    background-position: centre;
+    background-size: cover;
+}
+.content{
+    width: 400px;
+    background:blue;
+    text align: center;
+    padding-bottom: 20px;
+    padding: 20px;
+}
